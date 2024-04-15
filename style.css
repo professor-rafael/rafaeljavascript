@@ -33,6 +33,7 @@ body {
 }
 
 .titulo-principal {
+    text-align: center;
     color: var(--verde);
 }
 
