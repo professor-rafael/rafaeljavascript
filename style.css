@@ -13,6 +13,7 @@ body {
     background-color: var(--cor-de-fundo);
     color: var(--branco);
     font-family: 'Chakra Petch', sans-serif;
+    background: url('bg-desktop.webp');
 }
 
 
@@ -128,4 +129,86 @@ body {
     }    
 }
 
-    
+p {
+    margin-top: 0;
+}
+
+.container > div {
+    cursor: pointer;
+    display: block;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+  
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+  margin-top: 2px;
+  margin-top: 2px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font: bolder;
+
+  background: linear-gradient(45deg, #10c91f, #4fd12b, #19db49,#0fe33d);
+  background-size: 400% 100%;
+  animation: degrade 10s linear infinite alternate;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  outline: none;
+}
+
+@keyframes degrade {
+  0%{
+      background-position-x: 0%;
+  }
+
+  100%{
+      background-position: 400%;
+  }
+
+p{
+  font-size: 16px;
+  color: green;
+}
+
+.texto{
+    font-size: 30px;
+    text-transform: uppercase;
+
+    background: linear-gradient(45deg, #638ED1, #ff0000, #009688,#44E3D3);
+    background-size: 400% 100%;
+    animation: degrade 10s linear infinite alternate;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    outline: none;
+}
+
+@keyframes degrade {
+    0%{
+        background-position-x: 0%;
+    }
+
+    100%{
+        background-position: 400%;
+    }
+}
